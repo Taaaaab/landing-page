@@ -8,7 +8,7 @@ body {
 
   .header {
     height: 52px;
-    background: #1F2937;
+    background-color: #1F2937;
     color: white;
     display: flex;
     align-items: center;
@@ -16,20 +16,64 @@ body {
     padding-left: 16px;
     font-weight: 900;
   }
+  
+  .logo {
+      font-size: 24px;
+      font-weight: bolder;
+      color: #f9faf8;
+  }
 
+  .links {
+      font-size: 18px;
+      color: #e5e7eb;
+  }
+
+  .one {
+      background-color: #1F2937;
+      display: flex;
+      flex: 1;
+  }
+
+  .top {
+      font-size: 48px;
+      font-weight: bolder;
+      color: #f9faf8;
+  }
+
+  .middle {
+      font-size: 24px;
+      color: #f9faf8;
+  }
+
+  .button {
+      font-size: 18px;
+      background-color: #3882F6;
+      color: #f9faf8;
+      padding: 8px;
+  }
+
+img {
+    width: auto;
+    height: 200px;
+}
 
  .body {
     flex: 1;
     display: flex;
+    flex-direction: column;
 }
-  
-  .sidebar {
-    width: 300px;
-    background: royalblue;
-    font-size: 24px;
-    flex-shrink: 0;
-    padding: 16px;
-  }
+
+.two {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.title2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
   
   .container {
     padding: 32px;
@@ -37,19 +81,40 @@ body {
     flex-wrap: wrap;
 }
 
-  .card {
-    border: 1px solid #eee;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-    border-radius: 4px;
-    padding: 16px;
-    margin: 16px;
-    width: 300px;
-  }
+.box {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote2 {
+    font-size: 26px;
+    font-style: bold;
+    color: #1F2937;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    padding: 54px;
+    margin: 84px;
+    color: #f9faf8;
+}
+
+.sign {
+      font-size: 18px;
+      background-color: #3882F6;
+      color: #f9faf8;
+      padding: 8px;
+}
 
   .footer {
     height: 72px;
     background: #1F2937;
-    color: darkmagenta;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
