@@ -9,9 +9,10 @@ body {
   .header {
     height: 52px;
     background-color: #1F2937;
-    color: white;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    row-gap: 10px;
     font-size: 20px;
     padding-left: 16px;
     font-weight: 900;
@@ -26,12 +27,14 @@ body {
   .links {
       font-size: 18px;
       color: #e5e7eb;
+      
   }
 
   .one {
       background-color: #1F2937;
       display: flex;
       flex: 1;
+      padding: 100px;
   }
 
   .top {
@@ -47,14 +50,16 @@ body {
 
   .button {
       font-size: 18px;
+      font-weight: bold;
       background-color: #3882F6;
       color: #f9faf8;
-      padding: 8px;
+      padding: 8px 32px;
+      border-radius: 8px;
   }
 
 img {
     width: auto;
-    height: 200px;
+    height: 250px;
 }
 
  .body {
@@ -67,6 +72,8 @@ img {
     display: flex;
     flex: 1;
     flex-direction: column;
+    align-items: center;
+    padding: 100px;
 }
 
 .title2 {
@@ -83,32 +90,49 @@ img {
 
 .box {
     background-color: #E5E7EB;
+    padding: 150px;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
+    color: #1F2937; 
 }
 
 .quote2 {
     font-size: 26px;
-    font-style: bold;
+    font-weight: bold;
     color: #1F2937;
+    margin-left: 500px;
+    
 }
 
 .blue-box {
     background-color: #3882F6;
     padding: 54px;
-    margin: 84px;
+    margin: 120px;
     color: #f9faf8;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.call {
+    font-size: 22px;
+    font-weight: bold;
+
 }
 
 .sign {
-      font-size: 18px;
+      font-size: 16px;
+      font-weight: bold;
       background-color: #3882F6;
       color: #f9faf8;
-      padding: 8px;
+      padding: 2px 32px; 
+      border-radius: 8px;
+      border-color: white;
+      border-width: 2px;
+      
 }
 
   .footer {
